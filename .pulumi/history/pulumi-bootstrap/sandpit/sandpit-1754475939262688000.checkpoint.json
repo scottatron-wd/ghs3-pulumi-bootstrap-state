@@ -1,0 +1,20 @@
+{
+    "version": 3,
+    "checkpoint": {
+        "stack": "organization/pulumi-bootstrap/sandpit",
+        "latest": {
+            "manifest": {
+                "time": "2025-08-06T20:25:38.659691+10:00",
+                "magic": "ebe3b71ffbd5a95eec1b5cb82516892f944b47f36c5b1ed4f716a76cb5fce31a",
+                "version": "v3.187.0"
+            },
+            "secrets_providers": {
+                "type": "passphrase",
+                "state": {
+                    "salt": "v1:RFdUBUfGwzk=:v1:/OotTIV3NpQXZzIL:/nyMvytsf4mA/UEyqJPYNuyqLBbsWw=="
+                }
+            },
+            "metadata": {}
+        }
+    }
+}
