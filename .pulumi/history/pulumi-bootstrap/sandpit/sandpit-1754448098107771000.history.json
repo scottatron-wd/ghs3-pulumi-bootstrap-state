@@ -1,0 +1,29 @@
+{
+    "kind": "update",
+    "startTime": 1754448093,
+    "message": "",
+    "environment": {
+        "exec.kind": "cli",
+        "pulumi.arch": "arm64",
+        "pulumi.env.PULUMI_CONFIG_PASSPHRASE": "set",
+        "pulumi.env.PULUMI_DISABLE_TELEMETRY": "set",
+        "pulumi.env.PULUMI_SKIP_UPDATE_CHECK": "true",
+        "pulumi.flag.verbose": "set",
+        "pulumi.flag.yes": "true",
+        "pulumi.os": "darwin",
+        "pulumi.version": "v3.187.0",
+        "stack.environments": "[]",
+        "updatePlan": "false"
+    },
+    "config": {
+        "pulumi:tags": {
+            "pulumi:template": "python"
+        }
+    },
+    "version": 0,
+    "result": "succeeded",
+    "endTime": 1754448097,
+    "resourceChanges": {
+        "same": 3
+    }
+}
