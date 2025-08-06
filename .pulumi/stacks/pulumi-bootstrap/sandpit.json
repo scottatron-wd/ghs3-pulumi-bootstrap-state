@@ -4,7 +4,7 @@
         "stack": "organization/pulumi-bootstrap/sandpit",
         "latest": {
             "manifest": {
-                "time": "2025-08-06T12:35:56.101202+10:00",
+                "time": "2025-08-06T12:35:59.444373+10:00",
                 "magic": "ebe3b71ffbd5a95eec1b5cb82516892f944b47f36c5b1ed4f716a76cb5fce31a",
                 "version": "v3.187.0"
             },
@@ -71,62 +71,6 @@
                     "created": "2025-08-06T02:35:55.244798Z",
                     "modified": "2025-08-06T02:35:55.244798Z",
                     "sourcePosition": "project:///__main__.py#5"
-                }
-            ],
-            "pending_operations": [
-                {
-                    "resource": {
-                        "urn": "urn:pulumi:sandpit::pulumi-bootstrap::docker:index/container:Container::foo",
-                        "custom": true,
-                        "type": "docker:index/container:Container",
-                        "inputs": {
-                            "__defaults": [
-                                "attach",
-                                "containerReadRefreshTimeoutMilliseconds",
-                                "logs",
-                                "mustRun",
-                                "networkMode",
-                                "readOnly",
-                                "removeVolumes",
-                                "restart",
-                                "rm",
-                                "start",
-                                "stdinOpen",
-                                "tty",
-                                "wait",
-                                "waitTimeout"
-                            ],
-                            "attach": false,
-                            "containerReadRefreshTimeoutMilliseconds": 15000,
-                            "image": "sha256:a08e551cb33850e4740772b38217fc1796a66da2506d312abe51acda354ff061",
-                            "logs": false,
-                            "mustRun": true,
-                            "name": "foo",
-                            "networkMode": "bridge",
-                            "readOnly": false,
-                            "removeVolumes": true,
-                            "restart": "no",
-                            "rm": false,
-                            "start": true,
-                            "stdinOpen": false,
-                            "tty": false,
-                            "wait": false,
-                            "waitTimeout": 60
-                        },
-                        "parent": "urn:pulumi:sandpit::pulumi-bootstrap::pulumi:pulumi:Stack::pulumi-bootstrap-sandpit",
-                        "dependencies": [
-                            "urn:pulumi:sandpit::pulumi-bootstrap::docker:index/remoteImage:RemoteImage::ubuntu"
-                        ],
-                        "provider": "urn:pulumi:sandpit::pulumi-bootstrap::pulumi:providers:docker::default_4_8_0::6e3478e8-6e41-41ff-8390-ace617d869af",
-                        "propertyDependencies": {
-                            "image": [
-                                "urn:pulumi:sandpit::pulumi-bootstrap::docker:index/remoteImage:RemoteImage::ubuntu"
-                            ],
-                            "name": []
-                        },
-                        "sourcePosition": "project:///__main__.py#7"
-                    },
-                    "type": "creating"
                 }
             ],
             "metadata": {}
