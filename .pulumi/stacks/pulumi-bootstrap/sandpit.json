@@ -4,7 +4,7 @@
         "stack": "organization/pulumi-bootstrap/sandpit",
         "latest": {
             "manifest": {
-                "time": "2025-08-06T20:24:48.24219+10:00",
+                "time": "2025-08-06T20:24:55.785513+10:00",
                 "magic": "ebe3b71ffbd5a95eec1b5cb82516892f944b47f36c5b1ed4f716a76cb5fce31a",
                 "version": "v3.187.0"
             },
@@ -40,29 +40,40 @@
                     },
                     "created": "2025-08-06T02:35:46.135874Z",
                     "modified": "2025-08-06T02:35:46.135874Z"
-                }
-            ],
-            "pending_operations": [
+                },
                 {
-                    "resource": {
-                        "urn": "urn:pulumi:sandpit::pulumi-bootstrap::docker:index/remoteImage:RemoteImage::ubuntu",
-                        "custom": true,
-                        "type": "docker:index/remoteImage:RemoteImage",
-                        "inputs": {
-                            "__defaults": [
-                                "platform"
-                            ],
-                            "name": "ubuntu:latest",
-                            "platform": ""
-                        },
-                        "parent": "urn:pulumi:sandpit::pulumi-bootstrap::pulumi:pulumi:Stack::pulumi-bootstrap-sandpit",
-                        "provider": "urn:pulumi:sandpit::pulumi-bootstrap::pulumi:providers:docker::default_4_8_0::6e3478e8-6e41-41ff-8390-ace617d869af",
-                        "propertyDependencies": {
-                            "name": []
-                        },
-                        "sourcePosition": "project:///__main__.py#5"
+                    "urn": "urn:pulumi:sandpit::pulumi-bootstrap::docker:index/remoteImage:RemoteImage::ubuntu",
+                    "custom": true,
+                    "id": "sha256:a08e551cb33850e4740772b38217fc1796a66da2506d312abe51acda354ff061ubuntu:latest",
+                    "type": "docker:index/remoteImage:RemoteImage",
+                    "inputs": {
+                        "__defaults": [
+                            "platform"
+                        ],
+                        "name": "ubuntu:latest",
+                        "platform": ""
                     },
-                    "type": "creating"
+                    "outputs": {
+                        "__meta": "{\"e2bfb730-ecaa-11e6-8f88-34363bc7c4c0\":{\"create\":1200000000000,\"delete\":1200000000000,\"update\":1200000000000}}",
+                        "build": null,
+                        "forceRemove": null,
+                        "id": "sha256:a08e551cb33850e4740772b38217fc1796a66da2506d312abe51acda354ff061ubuntu:latest",
+                        "imageId": "sha256:a08e551cb33850e4740772b38217fc1796a66da2506d312abe51acda354ff061",
+                        "keepLocally": null,
+                        "name": "ubuntu:latest",
+                        "platform": "",
+                        "pullTriggers": null,
+                        "repoDigest": "ubuntu@sha256:a08e551cb33850e4740772b38217fc1796a66da2506d312abe51acda354ff061",
+                        "triggers": null
+                    },
+                    "parent": "urn:pulumi:sandpit::pulumi-bootstrap::pulumi:pulumi:Stack::pulumi-bootstrap-sandpit",
+                    "provider": "urn:pulumi:sandpit::pulumi-bootstrap::pulumi:providers:docker::default_4_8_0::6e3478e8-6e41-41ff-8390-ace617d869af",
+                    "propertyDependencies": {
+                        "name": []
+                    },
+                    "created": "2025-08-06T10:24:55.785455Z",
+                    "modified": "2025-08-06T10:24:55.785455Z",
+                    "sourcePosition": "project:///__main__.py#5"
                 }
             ],
             "metadata": {}
