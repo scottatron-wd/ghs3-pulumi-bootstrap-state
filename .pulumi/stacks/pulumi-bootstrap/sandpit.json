@@ -4,7 +4,7 @@
         "stack": "organization/pulumi-bootstrap/sandpit",
         "latest": {
             "manifest": {
-                "time": "2025-08-06T12:35:41.351825+10:00",
+                "time": "2025-08-06T12:35:42.333383+10:00",
                 "magic": "ebe3b71ffbd5a95eec1b5cb82516892f944b47f36c5b1ed4f716a76cb5fce31a",
                 "version": "v3.187.0"
             },
@@ -14,15 +14,14 @@
                     "salt": "v1:RFdUBUfGwzk=:v1:/OotTIV3NpQXZzIL:/nyMvytsf4mA/UEyqJPYNuyqLBbsWw=="
                 }
             },
-            "pending_operations": [
+            "resources": [
                 {
-                    "resource": {
-                        "urn": "urn:pulumi:sandpit::pulumi-bootstrap::pulumi:pulumi:Stack::pulumi-bootstrap-sandpit",
-                        "custom": false,
-                        "type": "pulumi:pulumi:Stack",
-                        "sourcePosition": "project:///.venv/lib/python3.12/site-packages/pulumi/runtime/stack.py#169"
-                    },
-                    "type": "creating"
+                    "urn": "urn:pulumi:sandpit::pulumi-bootstrap::pulumi:pulumi:Stack::pulumi-bootstrap-sandpit",
+                    "custom": false,
+                    "type": "pulumi:pulumi:Stack",
+                    "created": "2025-08-06T02:35:42.333368Z",
+                    "modified": "2025-08-06T02:35:42.333368Z",
+                    "sourcePosition": "project:///.venv/lib/python3.12/site-packages/pulumi/runtime/stack.py#169"
                 }
             ],
             "metadata": {}
